@@ -1,6 +1,6 @@
 # comic-api
 
-###Una vez clonado el repositorio
+##Una vez clonado el repositorio
 
 ## Instala el paquete de dependencias de node 
 ```
