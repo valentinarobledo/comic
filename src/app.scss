@@ -1,0 +1,63 @@
+/* Colores */
+
+$blanco: white;
+$negro: rgb(29, 28, 28);
+$gris: #777777;
+$azul: #1029e3;
+$azul-2: #108fe3;
+
+.bg-blanco{
+    background-color: $blanco;
+}
+.bg-negro{
+    background-color: $negro;
+}
+.bg-gris{
+    background-color: $gris;
+}
+
+
+.color-negro{
+    color: $negro;
+}
+.color-blanco{
+    color: $blanco;
+}
+.color-gris{
+    color: $gris;
+}
+.color-azul{
+    color: $azul;
+}
+.color-azul-2{
+    color: $azul-2;
+}
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;900&display=swap');
+
+h1, h2, h3, p{
+    margin: 0;
+
+}
+
+h1, h2{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 900;
+}
+h3, p{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+} 
+
+.rounded{
+    border-radius: 1rem !important;
+}
+
+.box{
+    box-shadow: 0.2rem 0.2rem 0.5rem #312727;
+    .img{
+        width: 100%;
+    }
+
+}
